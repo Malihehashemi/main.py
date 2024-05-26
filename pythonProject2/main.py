@@ -8,7 +8,6 @@ import matplotlib.pyplot as plt
 
 time = np.array([0, 15, 30, 45, 60, 75, 90, 105, 120])
 degradation_210 = np.array([0.0005760, 0.00056998, 0.0005646, 0.0005642, 0.0005640, 0.0005628, 0.0005610, 0.000562, 0.0005622])
-degradation_210_New = np.array([0.0005760, 0.00056998, 0.0005646, 0.0005642, 0.0005640, 0.0005628, 0.0005610])
 
 def LODE_kernel(x,y, theta):
     return exp(-0.5*np.sum(x+y)/theta**2)
